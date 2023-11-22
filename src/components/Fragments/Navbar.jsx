@@ -1,6 +1,8 @@
+import Button from "../Elements/Button/Index";
+
 const Navbar = () => {
   return (
-    <nav className="flex flex-row max-w-6xl mx-auto justify-between items-center mt-10">
+    <nav className="flex flex-row items-center justify-between max-w-6xl pb-12 mx-auto mt-10">
       <svg
         width="176"
         height="42"
@@ -59,19 +61,44 @@ const Navbar = () => {
       </svg>
       <ul className="flex flex-row gap-x-7">
         <li>
-          <a href="#">Products</a>
+          <a
+            href="#"
+            className="text-base text-indigo-950 hover:font-semibold hover:text-violet-700"
+          >
+            Products
+          </a>
         </li>
         <li>
-          <a href="#">Service</a>
+          <a
+            href="#"
+            className="text-base text-indigo-950 hover:font-semibold hover:text-violet-700"
+          >
+            Service
+          </a>
         </li>
         <li>
-          <a href="#">Pricing</a>
+          <a
+            href="#"
+            className="text-base text-indigo-950 hover:font-semibold hover:text-violet-700"
+          >
+            Pricing
+          </a>
         </li>
         <li>
-          <a href="#">Testimonials</a>
+          <a
+            href="#"
+            className="text-base text-indigo-950 hover:font-semibold hover:text-violet-700"
+          >
+            Testimonials
+          </a>
         </li>
         <li>
-          <a href="#">Blog</a>
+          <a
+            href="#"
+            className="text-base text-indigo-950 hover:font-semibold hover:text-violet-700"
+          >
+            Blog
+          </a>
         </li>
       </ul>
       <div className="flex flex-row items-center gap-x-3">
@@ -119,12 +146,9 @@ const Navbar = () => {
             </svg>
           </a>
         </div>
-        <a
-          href="#"
-          className="text-base bg-[#080C2E] text-white py-3 rounded-full font-semibold px-8"
-        >
+        <Button classname="bg-[#080C2E] text-white py-3 px-8 hover:bg-violet-700">
           Sign In
-        </a>
+        </Button>
       </div>
     </nav>
   );
