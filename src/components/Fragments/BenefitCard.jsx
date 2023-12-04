@@ -12,6 +12,10 @@ const BenefitCard = (props) => {
         </div>
         <p>Ini paragraf</p>
         <span>hello</span>
+        <ul>
+          <li>makanan</li>
+          <li>minuman</li>
+        </ul>
       </div>
     </div>
   );
