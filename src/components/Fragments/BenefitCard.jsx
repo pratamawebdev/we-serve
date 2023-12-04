@@ -7,6 +7,7 @@ const BenefitCard = (props) => {
         <h3 className="text-xl font-bold text-indigo-950">{title}</h3>
         <p className="text-base leading-relaxed text-gray-500">{description}</p>
         <button>Tombol Submit</button>
+        <p>Ini paragraf</p>
       </div>
     </div>
   );
