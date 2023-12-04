@@ -11,6 +11,7 @@ const BenefitCard = (props) => {
           <a href="google.com">Google</a>
         </div>
         <p>Ini paragraf</p>
+        <span>hello</span>
       </div>
     </div>
   );
